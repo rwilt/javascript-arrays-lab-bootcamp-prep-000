@@ -30,7 +30,7 @@ function destructivelyRemoveFirstKitten() {
 function removeLastKitten(){
   var kittens = ["Milo", "Otis", "Garfield"]
   kittens.slice(3)
-  return kittens
+  console.log(kittens)
 }
 
 function removeFirstKitten() {
@@ -51,4 +51,3 @@ function prependKitten() {
   kittens = ["Arnold", ...kittens]
   return kittens
 }
-
